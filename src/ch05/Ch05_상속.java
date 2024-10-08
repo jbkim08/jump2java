@@ -10,6 +10,11 @@ class Anima {
 
 //자식 클래스 Anima 클래스를 상속
 class Dog extends Anima {
+    //생성자는 클래스명과 똑같고 리턴이 없음
+    //그중에 디폴트생성자는 입력변수가 없음(생략가능)
+    Dog(){
+        System.out.println("도그객체 생성!");
+    }
     void sleep(){
         System.out.println(this.name + " zzz");
     }
