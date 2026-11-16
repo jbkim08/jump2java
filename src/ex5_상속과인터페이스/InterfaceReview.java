@@ -8,7 +8,7 @@ public class InterfaceReview {
         Sounding dog = new Dog();
         Sounding baby = new Baby();
         Sounding tiger = new Tiger();
-        Sounding robot = new Robot();
+        Sounding robot = new Robot2();
         // ArrayList를 통한 객체 저장
         ArrayList<Sounding> list = new ArrayList<Sounding>();
         list.add(dog);
@@ -39,7 +39,7 @@ class Tiger implements Sounding {
         System.out.println("Tiger: 어흥!");
     }
 }
-class Robot implements Sounding {
+class Robot2 implements Sounding {
     public void sound() {
         System.out.println("Robot: 삐빕!");
     }
